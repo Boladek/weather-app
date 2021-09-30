@@ -1,13 +1,107 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "montseratt", sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: linear-gradient(to top right,#ff8a00, #e52e71);
+}
+
+.App {
+  width: 100vw;
+  height:100vh;
+  border: 10px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url('/src/assets/warm.jpeg'); */
+  /* background-image: linear-gradient(to top right,#ff8a00, #e52e71); */
+  /* background-size: cover; */
+  /* background-position: bottom; */
+  /* transition: 0.4 ease-out; */
+}
+
+/* .main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7));
+  padding: 5em;
+}
+
+form {
+  width: 100%;
+}
+
+.search-bar {
+  width: 50%;
+  height: 50px;
+  font-size: 40px;
+  border-radius: 5px 15px 5px 15px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+  outline: none;
+  background-color:rgba(255, 255, 255, 0.7);
+  margin: 0 auto;
+}
+
+.search-bar:focus{
+  background-color: rgba(255, 255, 255, 1);
+}
+
+button {
+  height: 50px; 
+  border-radius: 5px 15px 5px 15px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+  width: 6rem;
+  font-size: 20px;
+}
+
+.weather-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.temperature {
+  height: 4em;
+  width: 7em;
+  margin: 1em;
+  border: 1px solid white;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5%;
+  box-shadow: 10px 10px rgba(255, 255, 255, 0.2);
+} */
+
+
+.weather-box{
+  box-sizing: border-box;
+  width: 17rem;
+  height: 65%;
+  border-radius: 1rem;
+  background-color: #364e71;
+  box-shadow: 1px 5px 10px #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 1.5em;
+}
+
+p {
+  margin: .2rem 0 .5rem 0;
+}
+
+.weather-icon {
+  font-size: 9em;
 }
